@@ -148,8 +148,7 @@ code {
 }
 .mainBasket .showBasket .basketList {
   display: flex;
-  flex-direction: row;
-  
+  align-items: center;
 }
 .mainBasket .showBasket .basketList p{
   display: block;
@@ -177,4 +176,12 @@ code {
 }
 .mainBasket .basketDesc{
   color: #d6d6d6 ;
+}
+.basketList .handleDelete{
+  background-color: red; 
+  border-radius: 9999px;
+  border: none;
+  width: 30px;
+  cursor: pointer;
+  height: 30px;
 }

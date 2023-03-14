@@ -25,7 +25,7 @@ function App() {
 
     </div>
     </div>
-    <Basket basket={basket}/>
+    <Basket setBasket={setBasket} basket={basket}/>
 
     </>
     

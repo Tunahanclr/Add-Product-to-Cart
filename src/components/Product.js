@@ -33,7 +33,7 @@ export default function Product({product,basket,setBasket}) {
     const removeFind = basket.find(item => item.id === product.id);
     removeFind.amount -=1;
     if(removeFind.amount === 0)
-    {
+    {   
       setBasket([...basket.filter(item => item.id !== product.id)]);
     }
     else
@@ -48,7 +48,7 @@ export default function Product({product,basket,setBasket}) {
       }])
     }
   }
-
+  
   return (
     <div>
     <div className='product'>
